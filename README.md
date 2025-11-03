@@ -1,6 +1,12 @@
 # webpack-module-federation-esm-repro
 
-This is a minimum reproducible example for webpack module federation behavior regarding pure ESM (`javascript/esm` aka "\*.mjs" )
+This is a minimum reproducible example for Webpack module federation behavior regarding pure ESM (`javascript/esm` aka "\*.mjs" )
+
+For both `javascript/auto` and `javascript/esm`, it prints whether the default import symbol is a function or a module object for the following variants:
+
+- plain: Not using Webpack Module Federation so this should be considered as the "correct" behavior
+- federation-remote: Using Webpack module federation to load a pure ESM package from remote
+- federation-local: Using Webpack module federation but the package is from the bundle (local)
 
 ## How to run
 
