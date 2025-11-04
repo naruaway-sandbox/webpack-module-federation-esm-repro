@@ -16,3 +16,8 @@ npm run start
 ```
 
 Then open the shown URL in a web browser.
+
+## Related issues
+
+- [Resolve module (mjs) incorrectly when using Module Federation Plugin · Issue #16125 · webpack/webpack](https://github.com/webpack/webpack/issues/16125)
+- [fix(sharing): copy buildMeta and buildInfo to ConsumeSharedModule by tzachbon · Pull Request #20054 · webpack/webpack · GitHub](https://github.com/webpack/webpack/pull/20054)
