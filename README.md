@@ -24,6 +24,6 @@ Then open the shown URL in a web browser.
 
 ## Test result on my machine
 
-I tested on 2025-11-14 using the commit 14bb6834 and the result was:
+I tested on 2025-11-14 using the commit [14bb6834](https://github.com/naruaway-sandbox/webpack-module-federation-esm-repro/commit/14bb6834) and the result was:
 
 <img src="./assets/2025-11-14-14bb6834.png" alt="" width="360" style="border:1px solid black">
